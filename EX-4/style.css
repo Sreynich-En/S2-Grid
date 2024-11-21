@@ -21,9 +21,9 @@ nav{
     top: 0;
     bottom: 0;
     /* height: 100vh; */
+    /* width: 280px; */
     left: 0;
     background:#fff;
-    width: 280px;
     box-shadow: 0 20px 35px rgba(0,0,0,0.1);
 }
 .logo{
@@ -31,6 +31,7 @@ nav{
     display: flex;
     margin: 10px 0 0 11px;
 }
+
 .logo img{
     width: 50px;
     height: 50px;
@@ -48,7 +49,7 @@ a{
     color: rgb(85,83,83);
     font-size: 14px;
     display: table;
-    width: 280px;
+    width: auto;
     padding:10px ;
 }
 nav .fas {
@@ -74,11 +75,7 @@ nav .fa-sharp {
 }
 a:hover{
     background: #eee;
-}
-.logout{
-    position: absolute; /*padding space between help and logout*/
-    bottom: 0;
-    
+    width: 100%;
 }
 
 /*Main secition  */
@@ -224,6 +221,7 @@ a:hover{
     nav{
         width: 200px;
     }
+    
     .main{
         padding-left: 50px;
     }
@@ -236,6 +234,7 @@ a:hover{
     nav{
         width: 150px;
     }
+
     .main{
         padding-left: 160px;
     }
